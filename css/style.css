@@ -5,12 +5,17 @@
     font-family: monospace;
 }
 
-body, html {
+html {
+
+    scroll-behavior: smooth;
+}
+
+
+body {
     background: url("/imagens/logo_devsht_sem_bg1.png") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
-    scroll-behavior: smooth;
     background-color: purple
 }
 
