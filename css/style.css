@@ -12,11 +12,10 @@ html {
 
 
 body {
-    background: url("/imagens/logo_devsht_sem_bg1.png") no-repeat;
+    background: url("/imagens/aprenderProgramar.png") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
-    background-color: purple
 }
 
 header {
