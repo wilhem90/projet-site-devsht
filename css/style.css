@@ -17,7 +17,7 @@ header {
     border-bottom: 1px solid lightgray;
     height: 100px;
     width: 100%;
-    background-color: white;
+    background-color: #ff1515;
     position: fixed;
     z-index: 999;
     top: 0;
