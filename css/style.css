@@ -30,7 +30,7 @@ header nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: transparent;
+    background-color: red;
     background-image: url("/imagens/icone.png");
 }
 
