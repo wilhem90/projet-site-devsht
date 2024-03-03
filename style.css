@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url("/src/imagens/aprenderProgramar.png");
+    background-image: url("./src/imagens/aprenderProgramar.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
