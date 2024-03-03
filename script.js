@@ -1,11 +1,14 @@
 const headerContainer = document.querySelector(".header-container")
+const centerContainer = document.querySelector(".center-container")
+
+
 window.addEventListener("DOMContentLoaded", () => {
+
     // vamos preencher o header da pagina, chamamos a funcão getComponent, passando os parametro necessario nessa chamada.
     getComponent("./src/components/header/navbar.html", headerContainer)
+    getComponent("./src/components/main/center/center.html", centerContainer)
 
 })
-
-
 
 async function getComponent(url, element) {
     try {
@@ -16,8 +19,8 @@ async function getComponent(url, element) {
             return
         }
 
-        headerContainer.innerHTML = responseTxt
+        element.innerHTML = responseTxt
     } catch (error) {
-        headerContainer.innerHTML = error
+        element.innerHTML = error
     }
 }
