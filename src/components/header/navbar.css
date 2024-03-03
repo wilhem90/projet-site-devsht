@@ -74,13 +74,16 @@ header nav .links .notificacao img {
 
 header nav .links a .badge {
     position: absolute;
-    top: -6px;
-    right: -6px;
-    padding: 1px 8px;
-    border-radius: 100%;
+    top: -1px;
+    right: 0px;
+    text-align: center;
+    height: 19px;
+    width: 19px;
+    font-size: .8rem;
+    border-radius: 50%;
     background-color: red;
     color: white;
-    display: block;
+    display: inline;
 }
 
 header nav .setting {
