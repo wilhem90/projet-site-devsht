@@ -9,3 +9,7 @@
     flex-direction: column;
     padding: 8px;
 }
+
+body {
+    background-image: url("../imagens/aprenderProgramar.png");
+}
