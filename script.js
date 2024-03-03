@@ -1,7 +1,4 @@
 const headerContainer = document.querySelector(".header-container")
-
-headerContainer.innerHTML = `<h2>Testando nosso script</h2>`
-
 window.addEventListener("DOMContentLoaded", () => {
 
     // vamos preencher o header da pagina, chamamos a funcão getComponent, passando os parametro necessario nessa chamada.
