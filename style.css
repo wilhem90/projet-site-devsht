@@ -11,5 +11,6 @@
 }
 
 body {
-    background-image: url("./imagens/avatar2.png");
+    background-image: url("./imagens/logo_devsht_sem_bg1.png");
+    background-repeat: no-repeat;
 }
